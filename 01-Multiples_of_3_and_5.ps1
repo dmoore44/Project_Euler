@@ -1,0 +1,1 @@
+(1..999) | where {$_ % 3 -eq 0 -or $_ % 5 -eq 0} | measure -sum
